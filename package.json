@@ -1,0 +1,8 @@
+{
+  "name": "crop-yield-prediction-india",
+  "version": "0.1.0",
+  "description": "District-level crop yield prediction in India: Week 1 problem scoping and data acquisition plan",
+  "scripts": { "build:report": "node scripts/build_report.js" },
+  "dependencies": { "docx": "^9.0.0" },
+  "license": "MIT"
+}

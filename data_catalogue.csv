@@ -1,0 +1,14 @@
+dataset,category,provider,publication_frequency,granularity,credibility,url,date_accessed,status,notes
+Area production yield statistics,Crop yield (target),Ministry of Agriculture and Farmers Welfare (DES),Annual (1-2 year lag),State and district by crop and season,High,TO VERIFY,,Not downloaded,Primary source for the target variable
+Open Government Data Platform India,Crop yield (target),data.gov.in,Varies by dataset,District for many crop datasets,High,TO VERIFY,,Not downloaded,Convenient CSV/API; check completeness
+ICRISAT district-level database,Crop yield (target),ICRISAT,Periodic,District; long historical series,High,TO VERIFY,,Not downloaded,Harmonised series with fixed boundaries
+IMD gridded rainfall and temperature,Weather,India Meteorological Department,Daily,0.25 deg rain / 1 deg temp grid,High,TO VERIFY,,Not downloaded,Best local fit for India
+NASA POWER,Weather,NASA,Daily (near real time),0.5 deg grid or point queries,High,TO VERIFY,,Not downloaded,Adds radiation humidity wind
+ERA5 / ERA5-Land,Weather,Copernicus / ECMWF,Hourly,0.1-0.25 deg,High,TO VERIFY,,Not downloaded,Needs free account
+CHIRPS rainfall,Weather,CHC UCSB,Daily/monthly,0.05 deg,High,TO VERIFY,,Not downloaded,Cross-check for IMD rainfall
+SoilGrids,Soil,ISRIC,Periodic versions,250 m; multiple depths,High,TO VERIFY,,Not downloaded,Modelled; uncertainty higher locally
+Soil Health Card data,Soil,Government of India,Multi-year cycles,Farm/village aggregated to district,High,TO VERIFY,,Not downloaded,Check bulk-download access
+MODIS NDVI/EVI,Satellite vegetation,NASA,16-day composites,250 m - 1 km,High,TO VERIFY,,Not downloaded,Consistent since 2000
+Sentinel-2,Satellite vegetation,ESA / Copernicus,~5 days,10-20 m,High,TO VERIFY,,Not downloaded,Later extension
+Land cover (ESA WorldCover / Bhuvan),Land use,ESA / ISRO,Annual/occasional,10-100 m,High,TO VERIFY,,Not downloaded,Cropland mask
+District boundaries,Administrative,Survey of India / GADM,Occasional,District polygons,Varies,TO VERIFY,,Not downloaded,Match vintage to yield data

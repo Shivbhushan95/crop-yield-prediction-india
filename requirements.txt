@@ -1,0 +1,14 @@
+# Python packages planned for later weeks
+pandas
+numpy
+geopandas
+rasterio
+xarray
+netCDF4
+scikit-learn
+xgboost
+lightgbm
+matplotlib
+seaborn
+shap
+jupyter
